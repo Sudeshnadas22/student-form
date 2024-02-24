@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('night sky.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+ .heading{
+    font-family:'Lucida Sans', sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+    margin-left: 100px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    padding: 10px;
+    word-spacing:7px;
+    letter-spacing: 3px;
+}
+
+.input-box{
+    position: relative;
+    margin-left: 100px;
+    font-size: 20px;
+    padding: 10px;
+    font-family:'Lucida Sans', sans-serif;
+    color: whitesmoke;
+}
+
+.area{
+    position: relative;
+    width: 230px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:beige;
+    padding:4px;
+    font-size: 15px;
+}
+
+.area1{
+    position: relative;
+    width: 20px;
+    height: 18px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color:beige;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.submit{
+    background: rgb(222, 108, 42);
+    color: rgb(16, 2, 43);
+    border: 4px;
+    border-radius: 10px;
+    height: 34px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.submit:hover{
+    background: rgb(220, 125, 193);
+    color: rgb(16, 2, 43);
+    border: 4px;
+    border-radius: 10px;
+}
+
+#selector{
+    height: 30px;
+    width: 313px;
+    border-radius: 10px;
+    background-color:beige;
+    font-size: 15px;
+}
+section{
+    position: absolute;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.login{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background:transparent;
+}
+
